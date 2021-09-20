@@ -44,7 +44,7 @@ st.markdown(f""" <style>
 
 title = st.text_input('Book title, subject, or keyword', 'Mystery')
 
-library_list = st.text_area("Libraries",libraries,height=500)
+#library_list = st.text_area("Libraries",libraries,height=500)
 
 if st.button('Search'):
 

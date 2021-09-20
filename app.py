@@ -51,7 +51,9 @@ if st.button('Search'):
     liblist = library_list.splitlines()
     for lib in liblist:
         query = lib + '%s' %title
-        webbrowser.open(query)  # Go to example.com
+        #webbrowser.open(query)  # Go to example.com
+        st.write(query)
+       
     
 
 

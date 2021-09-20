@@ -48,7 +48,7 @@ title = st.text_input('Book title, subject, or keyword', 'Mystery')
 
 if st.button('Search'):
 
-    liblist = library_list.splitlines()
+    liblist = libraries.splitlines()
     for lib in liblist:
         query = lib + '%s' %title
         #webbrowser.open(query)  # Go to example.com
